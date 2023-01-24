@@ -1,0 +1,26 @@
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+print(a+b)
+print('--------')
+
+aMat = np.zeros((2,3))
+print(aMat)
+print('--------')
+bMat = np.ones((2,3))
+print(bMat)
+print('--------')
+
+# stacking matrix , menumpuk matrix
+c = np.hstack((a,b))
+print(c)
+print('--------')
+cMat = np.hstack((aMat,bMat))
+print(cMat)
+print('--------')
+d = np.vstack((a,b))
+print(d)
+print('--------')
+dMat = np.vstack((aMat,bMat))
+print(dMat)
+print('--------')
